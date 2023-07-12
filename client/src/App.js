@@ -23,7 +23,7 @@ function App() {
       });
 
       const res = await axios.post(
-         "https://jbwonxigfy.us19.qoddiapp.com/upload",
+         "https://8826-180-224-81-43.ngrok-free.app/upload",
          data,
          {
             timeout: 0,
