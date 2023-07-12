@@ -12,14 +12,6 @@ function App() {
       isDone: false,
    });
 
-   useEffect(() => {
-      if (loading.isUploading) {
-         start();
-      } else {
-         pause();
-      }
-   }, [loading.isUploading]);
-
    const handleSubmit = async (event) => {
       event.preventDefault();
       reset();
