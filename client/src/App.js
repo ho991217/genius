@@ -1,12 +1,12 @@
 import axios from "axios";
 import ScaleLoader from "react-spinners/ScaleLoader";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useStopwatch } from "react-timer-hook";
 
 function App() {
    const [file, setFile] = useState(null);
    const [text, setText] = useState([]);
-   const { seconds, start, pause, reset } = useStopwatch();
+   const { seconds, pause, reset } = useStopwatch();
    const [loading, setLoading] = useState({
       isUploading: false,
       isDone: false,
@@ -23,7 +23,7 @@ function App() {
       });
 
       const res = await axios.post(
-         " https://jbwonxigfy.us19.qoddiapp.com/upload",
+         "https://jbwonxigfy.us19.qoddiapp.com/upload",
          data,
          {
             timeout: 0,
