@@ -30,9 +30,13 @@ function App() {
          isDone: false,
       });
 
-      const res = await axios.post("http://localhost:8000/upload", data, {
-         timeout: 0,
-      });
+      const res = await axios.post(
+         " http://jbwonxigfy.us19.qoddiapp.com/upload",
+         data,
+         {
+            timeout: 0,
+         }
+      );
       if (res.status !== 200) {
          alert("파일 업로드에 실패했습니다.");
          return;
