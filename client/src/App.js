@@ -31,7 +31,7 @@ function App() {
       });
 
       const res = await axios.post(
-         " http://jbwonxigfy.us19.qoddiapp.com/upload",
+         " https://jbwonxigfy.us19.qoddiapp.com/upload",
          data,
          {
             timeout: 0,

@@ -8,7 +8,8 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "dev": "nodemon app.js",
       "start": "node app.js",
-      "build": "webpack --mode production"
+      "build": "webpack",
+      "web": "npm start"
    },
    "keywords": [],
    "author": "",
